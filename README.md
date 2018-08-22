@@ -1,7 +1,7 @@
 # Watch Time
 
 
-<img src="https://github.com/Owen-Tsai/watch-time/blob/master/logo/pinterest_profile_image.png?raw=true" style="width: 100px; height: 100px;">
+<img src="https://github.com/Owen-Tsai/watch-time/blob/master/logo/pinterest_profile_image.png?raw=true" width="100" height="100">
 
 
 ![当前版本](https://img.shields.io/badge/version-0.0.1-red.svg) ![创建者](https://img.shields.io/badge/founder-%E8%94%A1%E4%BB%B2%E6%99%A8-orange.svg) ![人工智能技术协会](https://img.shields.io/badge/%E5%9B%9B%E5%B7%9D%E8%BD%BB%E5%8C%96%E5%B7%A5-AAIT-brightgreen.svg) ![当前状态](https://img.shields.io/badge/status-Unfinished-lightgrey.svg)
