@@ -56,7 +56,7 @@ localhost/
 
 in your URL address bar, you will see the welcome page if things go well.
 
-**If you have any problem with it, ask **[@黄强]()** for help. And be advised, the virtual server is only used to develope on server side. You can skip this step and continue the following sections if you like, and the front-side framework will work as well**
+**If you have any problem with it, ask **[@黄强](#)** for help. And be advised, the virtual server is only used to develope on server side. You can skip this step and continue the following sections if you like, and the front-side framework will work as well**
 
 ### 1.4 Creating new application
 
