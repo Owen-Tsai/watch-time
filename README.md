@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/status-Unfinished-lightgrey.svg">
 </p>
 
-<p align=center>**注意, 这仍是一个未完成版本。**</p>
+<p align=center><strong>注意, 这仍是一个未完成版本。</stong></p>
 
 > Watch Time is a time/task management tool as well as a community where people share ideas and inspirations about how to manage life and make it more better.
 
