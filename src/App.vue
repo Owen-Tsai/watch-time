@@ -37,7 +37,7 @@
 
       <v-list class="pt-0">
         <v-divider light></v-divider>
-        <v-list-tile v-for="item in items" :key="item.title" @click.stop="item.clickevent">
+        <v-list-tile v-for="item in items" :key="item.title" :to="item.link">
           <v-list-tile-action>
             <v-icon>{{item.icon}}</v-icon>
           </v-list-tile-action>
@@ -49,7 +49,7 @@
     </v-navigation-drawer>
     <v-toolbar
       app
-      dark
+      color="yellow"
       clipped-left
     >
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
@@ -58,7 +58,7 @@
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <router-view></router-view>
     </v-content>
 
     <v-footer app dark>
@@ -70,29 +70,31 @@
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld'
+  import WelcomePage from "./components/Inbox";
+  import HelloWorld from "./components/HelloWorld";
 
   export default {
     name: 'App',
     components: {
-      HelloWorld
+      HelloWorld,
+      WelcomePage,
     },
     data () {
       return {
-        drawer: false,
-        miniVariant: false,
-        right: true,
-        rightDrawer: false,
+        drawer: true,
+        helloPage: false,
+        miniVariant: true,
         title: '看时 - WatchTime',
         items: [
           {
             icon: 'all_inbox',
             title: '收集箱',
-            clickevent: this.openInbox
+            link: '/'
           },
           {
             icon: 'query_builder',
-            title: '番茄时钟'
+            title: '番茄时钟',
+            link: '/test'
           },
           {
             icon: 'account_circle',
@@ -110,13 +112,15 @@
             icon: 'public',
             title: '发现'
           },
+          {
+            icon: 'local_grocery_store',
+            title: '时间市场'
+          }
         ]
       }
     },
     methods :{
-      openInbox: function () {
-        alert(123);
-      }
+
     }
   }
 </script>
