@@ -72,7 +72,7 @@ in your URL address bar, you will see the welcome page if things go well.
 
 但是我们并**不是**真正使用wamp来预览项目，因为`npm`内置了用于开发的虚拟服务器，假如你只进行前端开发，那么在大多数情况下你只需要在`npm`的built-in server中运行项目。而假如你需要进行后端开发，则你必须具备PHP、Apache、MySQL，因为这是AAIT服务器的现有环境。
 
-**If you have any problem with it, ask **[@黄强]()** for help.** 
+**If you have any problem with it, ask **[@黄强](#)** for help.** 
 
 ### 1.4 Creating new application
 
