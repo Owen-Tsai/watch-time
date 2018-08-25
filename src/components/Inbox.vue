@@ -79,16 +79,13 @@
       </v-flex>
       <v-flex lg8 xl8 md6 sm12 xs12>
         <v-card>
-          <v-toolbar color="pink" dark>
+          <v-toolbar color="pink" dark dense>
             <v-toolbar-title>任务列表</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-text-field
-              append-icon="mic"
-              class="mx-3"
-              flat
-              label="Search"
-              prepend-inner-icon="search"
-              solo-inverted
+              hide-details
+              prepend-icon="search"
+              single-line
             ></v-text-field>
           </v-toolbar>
 
