@@ -5,10 +5,10 @@
 </p>
 
 <p align=center>
-![当前版本](https://img.shields.io/badge/version-0.0.1-red.svg) ![创建者](https://img.shields.io/badge/founder-%E8%94%A1%E4%BB%B2%E6%99%A8-orange.svg) ![人工智能技术协会](https://img.shields.io/badge/%E5%9B%9B%E5%B7%9D%E8%BD%BB%E5%8C%96%E5%B7%A5-AAIT-brightgreen.svg) ![当前状态](https://img.shields.io/badge/status-Unfinished-lightgrey.svg)
+<img src="https://img.shields.io/badge/version-0.0.1-red.svg"> <img src="https://img.shields.io/badge/founder-%E8%94%A1%E4%BB%B2%E6%99%A8-orange.svg"> <img src="https://img.shields.io/badge/%E5%9B%9B%E5%B7%9D%E8%BD%BB%E5%8C%96%E5%B7%A5-AAIT-brightgreen.svg"> <img src=https://img.shields.io/badge/status-Unfinished-lightgrey.svg">
 </p>
 
-<p align=center>**注意, 这仍是一个未完成版本。**</p>
+<p align=center><strong>注意, 这仍是一个未完成版本。</strong></p>
 
 > Watch Time is a time/task management tool as well as a community where people share ideas and inspirations about how to manage life and make it more better.
 
@@ -69,19 +69,19 @@ in your URL address bar, you will see the welcome page if things go well.
 
 但是我们并**不是**真正使用wamp来预览项目，因为`npm`内置了用于开发的虚拟服务器，假如你只进行前端开发，那么在大多数情况下你只需要在`npm`的built-in server中运行项目。而假如你需要进行后端开发，则你必须具备PHP、Apache、MySQL，因为这是AAIT服务器的现有环境。
 
-**If you have any problem with it, ask **[@黄强]()** for help.** 
+**If you have any problem with it, ask **[@黄强](#)** for help.** 
 
 ### 1.4 Creating new application
 
 Once you have done all the prepare work, you should create a new application. In you CLI, type: 
 
 ```
-> cd xxx					#切换到你的项目路径
-> vue create xxx			#xxx为项目名称
+> cd xxx          #切换到你的项目路径
+> vue create xxx  #xxx为项目名称
 
 # 选择几个选项，并等待创建结束
 
-> vue add vuetify		   #添加vuetify到项目目录
+> vue add vuetify #添加vuetify到项目目录
 ```
 
 Then, `cd` to your project folder, and excute
