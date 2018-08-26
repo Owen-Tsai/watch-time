@@ -108,4 +108,9 @@ You can get familiar with the application you have just created, do some modific
 
 当你熟悉了基本的操作流程和**vuetify**之后，你就可以参与开发了。在本地创建一个新项目后，在本Github仓库中下载`.zip`压缩包，解压后得到的文件复制到项目目录中即可。
 
-**[To Be Continued]**
+### 1.6 Install dependencies
+
+You still need to install some other packages that the project depends on. The following list shows the dependencies you need to install in order to run the project.
+
+ - [vue router](https://router.vuejs.org/zh/);
+ - ~~[google material icon font](#)~~
